@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sentiment-analysis-webapp</title>
+</head>
+
+<body>
+    <input type="text" placeholder="请输入短文本">
+    <button>开始预测</button>
+    <p>
+        <span id="score"></span>
+    </p>
+</body>
+
+</html>
+
+<style>
+
+</style>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("button").click(function() {
+            if ($("input").val() !== "") {
+                $.post("http://localhost:5000/predict", {
+                    "sentence": $("input").val()
+                }, function(data, status) {
+                    $("span#score").text(data);
+                })
+            }
+        })
+    })
+</script>
