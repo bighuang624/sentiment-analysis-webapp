@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
+    <title>中文短文本情感分析</title>
+    <meta name="description" content="中文短文本情感分析，以 web app 的形式展示。欢迎使用！">
+    <meta name="keywords" content="情感分析,短文本,中文,sentiment-analysis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>sentiment-analysis-webapp</title>
 </head>
 
 <body>
@@ -18,7 +20,9 @@
             <span id="score"></span>
         </div>
     </div>
-    <footer></footer>
+    <footer>
+        <a href="https://github.com/bighuang624/sentiment-analysis-webapp" target="_blank">开源项目地址</a>
+    </footer>
 </body>
 
 </html>
@@ -39,8 +43,8 @@
     }
     
     .container {
-        width: 100%;
-        padding: 70px 30%;
+        width: 50%;
+        padding: 70px 20% 0 30%;
     }
     
     input {
@@ -61,6 +65,15 @@
     
     .result {
         margin-top: 20px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 400px; 
+    }
+
+    footer>a {
+        color: #02A6E0;
     }
 </style>
 

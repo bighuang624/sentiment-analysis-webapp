@@ -2,9 +2,8 @@
 
 [![Python](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/sentiment-analysis-webapp/blob/master/LICENSE)
-[![Author](https://img.shields.io/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http://kyonhuang.top)
 
-情感分析实践 | A web app about sentiment analysis
+情感分析 web 应用 | A web app about sentiment analysis
 
 ## Installation
 
@@ -41,6 +40,10 @@ Open index.html and have fun.  :smiley:
 ## Thanks
 
 Inspired by [mtobeiyf / keras-flask-deploy-webapp ](https://github.com/mtobeiyf/keras-flask-deploy-webapp).
+
+## Contributors
+
+This work is done by Siteng Huang, Muzhe Zhou, Ziyi Wu, Zhongchao Cai, Xu Zheng and Suyang Hu.
 
 ## License
 
