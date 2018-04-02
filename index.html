@@ -8,13 +8,15 @@
     <meta name="keywords" content="情感分析,短文本,中文,sentiment-analysis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./static/main.css">
 </head>
 
 <body>
     <header>中文短文本情感分析</header>
     <div class="container">
         <input type="text" placeholder="请输入短文本">
-        <button>开始预测</button>
+        <button id="start">开始预测</button>
+        <button id="random">随便测测</button>
         <div class="result">
             <span>情感指数：</span>
             <span id="score"></span>
@@ -27,67 +29,5 @@
 
 </html>
 
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    
-    header {
-        width: 100%;
-        height: 44px;
-        background-color: #02A6E0;
-        color: #ffffff;
-        font-size: 30px;
-        padding: 10px 20px;
-    }
-    
-    .container {
-        width: 50%;
-        padding: 70px 20% 0 30%;
-    }
-    
-    input {
-        width: 300px;
-        height: 26px;
-        font-size: 14px;
-        margin-right: 30px;
-    }
-    
-    button {
-        width: 100px;
-        height: 30px;
-        font-size: 14px;
-        background-color: #02A6E0;
-        color: #ffffff;
-        border: 0;
-    }
-    
-    .result {
-        margin-top: 20px;
-    }
-
-    footer {
-        text-align: center;
-        margin-top: 400px; 
-    }
-
-    footer>a {
-        color: #02A6E0;
-    }
-</style>
-
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $("button").click(function() {
-            if ($("input").val() !== "") {
-                $.post("http://localhost:5000/predict", {
-                    "sentence": $("input").val()
-                }, function(data, status) {
-                    $("span#score").text(data);
-                })
-            }
-        })
-    })
-</script>
+<script src="./static/main.js"></script>

@@ -37,13 +37,13 @@ $ python app.py
 
 Open index.html and have fun.  :smiley:
 
-## Thanks
-
-Inspired by [mtobeiyf / keras-flask-deploy-webapp ](https://github.com/mtobeiyf/keras-flask-deploy-webapp).
-
 ## Contributors
 
-This work is done by Siteng Huang, Muzhe Zhou, Ziyi Wu, Zhongchao Cai, Xu Zheng and Suyang Hu.
+This work is doing by Siteng Huang, Muzhe Zhou, Ziyi Wu, Zhongchao Cai, Xu Zheng and Suyang Hu.
+
+## Thanks
+
+Inspired by [mtobeiyf / keras-flask-deploy-webapp](https://github.com/mtobeiyf/keras-flask-deploy-webapp).
 
 ## License
 
