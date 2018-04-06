@@ -27,7 +27,7 @@ $ pip install -r requirements.txt
 
 ### Run with Python
 
-Python 3.5+ are supported.
+Only support Python 3.5+ temporarily.
 
 ```shell
 $ python app.py
@@ -36,6 +36,25 @@ $ python app.py
 ### Play
 
 Open index.html and have fun.  :smiley:
+
+## Structure
+
+```py
+.
+├── LICENSE
+├── README.md
+├── app.py
+├── index.html
+├── models  # 存放持久化模型
+│   └── restaurant_comment.pkl
+├── requirements.txt
+├── static
+│   ├── main.css
+│   └── main.js
+└── training  # 存放模型训练代码
+    ├── restaurant-comment.csv
+    └── restaurant_comment_trainning.py
+```
 
 ## Contributors
 
