@@ -3,7 +3,9 @@
 [![Python](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/sentiment-analysis-webapp/blob/master/LICENSE)
 
-情感分析 web 应用 | A web app about sentiment analysis
+中文短文本情感分析 web 应用 | A web app about Chinese sentences sentiment analysis
+
+![example.png](https://raw.githubusercontent.com/bighuang624/sentiment-analysis-webapp/master/docs/example.png)
 
 ## Installation
 
@@ -39,22 +41,25 @@ Open index.html and have fun.  :smiley:
 
 ## Structure
 
-```py
+```
 .
 ├── LICENSE
 ├── README.md
 ├── app.py
 ├── index.html
-├── models  # 存放持久化模型
+├── models
+│   ├── douban_comment.pkl
 │   └── restaurant_comment.pkl
 ├── requirements.txt
 ├── static
-│   ├── main.css
-│   └── main.js
-└── training  # 存放模型训练代码
+└── training
+    ├── douban-comment.csv
+    ├── douban_comment_trainning.py
     ├── restaurant-comment.csv
     └── restaurant_comment_trainning.py
 ```
+
+The source code of the frontend can be found in [sentiment-analysis-webapp-frontend](https://github.com/bighuang624/sentiment-analysis-webapp-frontend), which is powered by Vue.js.
 
 ## Contributors
 
