@@ -28,7 +28,7 @@ def chinese_word_cut(mytext):
     return custom_stopwords_list'''
 
 
-df = pd.read_csv('douban-comment.csv',encoding='utf-8')
+df = pd.read_csv('douban_comment-v2.csv', encoding='utf-8')
 
 make_label(df)
 

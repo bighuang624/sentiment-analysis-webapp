@@ -5,7 +5,7 @@
 
 中文短文本情感分析 web 应用 | A web app about Chinese sentences sentiment analysis
 
-![example](https://user-images.githubusercontent.com/18595460/38461971-8c5f6542-3b10-11e8-8f01-614bc6bd4e86.png)
+![example.png](https://upload-images.jianshu.io/upload_images/2702529-fd4b1d92aeafaddb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## Installation
 
