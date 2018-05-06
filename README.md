@@ -59,11 +59,17 @@ Open index.html and have fun.  :smiley:
     └── restaurant_comment_trainning.py
 ```
 
+### Frontend
+
 The source code of the frontend can be found in [sentiment-analysis-webapp-frontend](https://github.com/bighuang624/sentiment-analysis-webapp-frontend), which is powered by Vue.js.
+
+### Test
+
+We also open source [a web automative test framework](https://github.com/BranRoyal/automation_framework) to support this project.
 
 ## Contributors
 
-This work is doing by Siteng Huang, Muzhe Zhou, Ziyi Wu, Zhongchao Cai, Xu Zheng and Suyang Hu.
+This work is doing by [Siteng Huang](https://github.com/bighuang624), Muzhe Zhou, [Ziyi Wu](https://github.com/krocw), Zhongchao Cai, [Xu Zheng](https://github.com/BranRoyal) and Suyang Hu.
 
 ## Thanks
 
