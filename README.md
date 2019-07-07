@@ -1,5 +1,7 @@
 # sentiment-analysis-webapp
 
+**此项目不再更新。网页展示的服务器也已关闭。**
+
 [![Python](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/sentiment-analysis-webapp/blob/master/LICENSE)
 
@@ -69,7 +71,7 @@ We also open source [a web automative test framework](https://github.com/BranRoy
 
 ## Contributors
 
-This work is doing by [Siteng Huang](https://github.com/bighuang624), Muzhe Zhou, [Ziyi Wu](https://github.com/krocw), Zhongchao Cai, [Xu Zheng](https://github.com/BranRoyal) and Suyang Hu.
+This work is done by [Siteng Huang](https://github.com/bighuang624), Muzhe Zhou, [Ziyi Wu](https://github.com/krocw), Zhongchao Cai, [Xu Zheng](https://github.com/BranRoyal) and Suyang Hu.
 
 ## Thanks
 
